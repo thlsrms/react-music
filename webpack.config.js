@@ -21,6 +21,7 @@ module.exports = {
 		alias: {
 			react: path.join(__dirname, 'node_modules', 'react'),
 			Pages: path.join(__dirname, 'src', 'pages'),
+			Components: path.join(__dirname, 'src', 'components'),
 		},
 		extensions: ['.js', '.jsx']
 	},
