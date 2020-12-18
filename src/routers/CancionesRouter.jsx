@@ -14,7 +14,7 @@ const CancionesRouter = () => {
         <Switch>
           <Route exact path='/' render={() => <CancionesHome />} />
           <Route exact path='/create' render={() => <CancionesCreate />} />
-          <Route exact path='/edit' render={() => <CancionesEdit />} />
+          <Route exact path='/edit/:id' render={() => <CancionesEdit />} />
           <Route exact path='/faq' render={() => <CancionesFAQ />} />
           <Route exact path='*' render={() => <Canciones404 />} />
         </Switch>

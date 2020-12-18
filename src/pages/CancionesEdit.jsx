@@ -1,7 +1,8 @@
 'use strict';
 import React from 'react';
 
-const CancionesEdit = () => {
+const CancionesEdit = (props) => {
+  console.log(props);
   return (
     <div>Editar Canciones</div>
   );
