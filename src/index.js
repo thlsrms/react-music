@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { StrictMode } from 'react';
 import { render } from 'react-dom';
 
 import 'normalize.css/normalize.css'
@@ -8,9 +8,9 @@ import App from './App';
 
 
 render(
-  <Fragment>
+  <StrictMode>
     <App />
-  </Fragment>,
+  </StrictMode>,
 
   document.getElementById('appRoot')
 );
